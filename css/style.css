@@ -1,0 +1,21 @@
+#nav {
+    height:auto
+    width: 100%;
+    position: center;
+  }
+  
+  ul {
+    background: rgb(241, 212, 81);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 60px;
+    box-shadow: 5px 5px 5px black;
+  }
+  
+  ul li {
+    list-style: none;
+  }
+  
+  ul li a {
+    color: white;
+  }
