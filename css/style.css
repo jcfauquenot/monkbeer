@@ -1,3 +1,15 @@
+#logo {
+  float: left;
+  height: 120px;
+  width: 130px;
+  border: 2px solid #030303;
+}
+
+img {
+ padding: 10px;
+}
+
+
 #nav {
     height:auto
     width: 100%;
