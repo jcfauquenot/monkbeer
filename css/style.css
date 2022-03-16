@@ -28,7 +28,9 @@ width: 100%;
   height:auto;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  font-size: larger;
+  font-weight: bolder;
   
   }
   
