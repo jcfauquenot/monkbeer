@@ -12,6 +12,45 @@ font-family: 'Cinzel Decorative', cursive;
 
 }
 
+.navBar li a {
+  background-image: linear-gradient(
+    to right,
+    #a57641,
+    #a57641 50%,
+    #000000 50%
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 0;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.4s ease-in-out;
+}
+
+.navBar li a:before{
+  content: '';
+  background: #a57641;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  border-radius: 5px;
+  transition: all 0.4s ease-in-out;
+}
+
+.navBar li a:hover {
+ background-position: 0;
+}
+
+.navBar li a:hover::before{
+  width: 100%;
+}
+
+
 #logo {
 
 width: 100%;
