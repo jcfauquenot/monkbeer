@@ -12,6 +12,22 @@ font-family: 'Cinzel Decorative', cursive;
 
 }
 
+#welcome {
+  height: 750px;
+  background-image:url('/Projets/monkbeer/img/Background-beer.jpg');
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#ld {
+  font-family: 'roboto';
+  font-size: 20pt;
+  font-weight: 600;
+  color: #e3caa5;
+
+}
+
 #logo {
 background-color: #e3caa5;
 width: 100%;
