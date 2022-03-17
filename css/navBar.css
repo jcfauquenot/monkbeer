@@ -12,7 +12,13 @@ font-family: 'Cinzel Decorative', cursive;
 
 }
 
+a {
+
+  text-decoration: none;
+}
+
 .navBar li a {
+  
   background-image: linear-gradient(
     to right,
     #a57641,
@@ -96,3 +102,4 @@ width: 100%;
   ul li a {
     color: black
   }
+
